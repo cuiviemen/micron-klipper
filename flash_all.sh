@@ -13,4 +13,6 @@ do
   fi
 done
 
+sudo service klipper start
+
 exit $?
