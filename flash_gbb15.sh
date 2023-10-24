@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-config="ebb36-v12.config"
-canuuid="a3605965c267"
+config="gbb15.config"
+canuuid="d89beebe5729"
 
 pushd ~/klipper
 
@@ -14,8 +14,8 @@ popd
 
 if [ $? -ne 0 ]
   then
-    echo "Flashing EBB36 failed"
+    echo "Flashing GBB15 failed"
     exit $?
 fi
 
-echo "Flashing EBB36 completed"
+echo "Flashing GBB15 completed"
