@@ -1,6 +1,6 @@
 # user defined
 printer_data/config/.moonraker.conf.bkp
-
+printer_data/config/scripts/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
