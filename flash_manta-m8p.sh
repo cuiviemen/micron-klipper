@@ -11,6 +11,7 @@ make menuconfig KCONFIG_CONFIG=$config
 make KCONFIG_CONFIG=$config
 
 python3 ~/katapult/scripts/flashtool.py -i can0 -r -u $canuuid
+sleep .5
 python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/$deviceid
 
 popd
