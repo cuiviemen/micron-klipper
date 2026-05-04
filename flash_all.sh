@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-scripts=(flash_ebb36.sh flash_gbb15.sh flash_manta-m8p.sh)
+scripts=(flash_ebb36gen2.sh flash_gbb15.sh flash_manta-m8p.sh)
 
 sudo service klipper stop
 
