@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 config="ebb36-v12.config"
-canuuid="d89beebe5729"
+canuuid="32711ea57232"
 
 pushd ~/klipper
 
